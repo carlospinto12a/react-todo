@@ -1,0 +1,14 @@
+.search {
+  border-radius: 10px;
+  width: 300px;
+  height: 20px;
+  padding: 10px 8px;
+  color: #464e51;
+  background-color: #fafafa;
+  font-size: 14px;
+  transition: width 0.3s ease-in-out;
+}
+.search:focus {
+  outline: none;
+  width: 400px;
+}
