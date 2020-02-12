@@ -5,22 +5,29 @@
   height: 50px;
   line-height: 50px;
   position: relative;
-  color: #464e51;
   background-color: lightyellow;
   border: 2px solid grey;
   border-radius: 5px;
   box-shadow: 0px 2px 2px #464e51;
 }
 
+.item:hover {
+  background-color: #ffffc4;
+}
+
 .item .content {
   cursor: pointer;
   padding-left: 15px;
+  color: #464e51;
 }
 
 .item.done {
   text-decoration: line-through;
   color: grey;
   background-color: #d0f0c0;
+}
+.item.done:hover {
+  background-color: #dff5d5;
 }
 
 /*** Delete Button ***/

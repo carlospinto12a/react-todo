@@ -49,6 +49,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="todo-app">
+        <h2 className="app-header">TODO App</h2>
         <div>
           <AddTodo onAddTodo={this.handleAddItem}></AddTodo>
         </div>
